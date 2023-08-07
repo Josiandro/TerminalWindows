@@ -1,0 +1,36 @@
+Comandos para trabalhar com arquivos:
+
+DIR - Lista arquivos e diretórios de uma pasta
+COPY - Copia arquivos
+MOVE - Mover arquivos ou renomear pastas
+ERASE - Deletar arquivos
+DEL - Deletar arquivos
+REN - Renomear arquivos
+ATTRIB - Exibe ou altera atributos de um arquivo
+COMP - Compara o conteúdo de dois arquivos ou grupos de arquivos
+FC - Compara o conteúdo de dois arquivos ou grupos de arquivos
+SORT - Classifica a entrada
+TYPE - Exibe o conteúdo de um arquivo de texto
+
+Comandos para trabalhar com pastas:
+
+MD - Criar uma nova pasta
+CD - Entrar em uma pasta
+.. - Retornar para a pasta anterior
+RD - Remover pasta
+XCOPY - Copia diretórios com seus subdiretórios
+
+Comandos para trabalhar com data/hora do sistema:
+
+TIME - Acertar a hora
+DATE - Acertar a data
+
+Comandos para gerenciar o sistema:
+
+SHUTDOWN - Desligar ou reiniciar o computador
+TASKLIST - Mostrar a lista de processo em execução
+TASKKILL - Finalizar algum dos processos em execução
+CHKDSK - Verifica um disco e retorna o status
+HOSTNAME - Dá o nome do host
+START - Inicia uma janela separada do CMD para executar um Comandos
+TITLE - Define o título da janela do CMD
