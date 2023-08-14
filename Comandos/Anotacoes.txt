@@ -1,47 +1,42 @@
 Comandos de diretórios:
 
-DIR    - Lista arquivos e diretórios de uma pasta
-CD     - Entrar em uma pasta
-CD /   - Vai direto para o diretório raiz
-.      - Diretório atual
-..     - Diretório anterior
-..\..  - Volta dois diretórios
-tree   - Mostra a estrutura de pastas
-MD     - Criar uma nova pasta
-MKDIR  - Criar uma nova pasta
+DIR   - Lista arquivos e diretórios de uma pasta
+CD    - Entrar em uma pasta
+CD /  - Vai direto para o diretório raiz
+.     - Diretório atual
+..    - Diretório anterior
+..\.. - Volta dois diretórios
+tree  - Mostra a estrutura de pastas
+MKDIR - Criar uma nova pasta (MD faz a mesma coisa)
 
 -------------------------------------------------------------------
 Comandos de arquivos:
 
-TYPE   - Visualizar conteúdo do arquivo
-MORE   - Semelhante ao TYPE, porém mostra o conteúdo por páginas
-MOVE   - Mover arquivos ou renomear pastas
-            move ..\..\imagem.png .\Imagens
-COPY   - Copia arquivos
-REN    - Renomear arquivos
-RENANE - Renomear arquivos
-DEL    - Deletar arquivos
-            DEL *.png
-FC     - Compara o conteúdo de dois arquivos ou grupos de arquivos
+TYPE - Visualizar conteúdo do arquivo
+MORE - Semelhante ao TYPE, porém mostra o conteúdo por páginas
+MOVE - Mover arquivos ou renomear pastas
+       move ..\..\imagem.png .\Imagens
+COPY - Copia arquivos
+REN  - Renomear arquivos (RENANE faz a memsa coisa)
+DEL  - Deletar arquivos
+        DEL *.png
+FC   - Compara o conteúdo de dois arquivos ou grupos de arquivos (COMP faz a mesma coisa)
 
 -------------------------------------------------------------------
 Outros comandos:
 
-CLS    - Limpar a tela
-HELP   - Mostrar o help do comando
-            HELP MOVE
+CLS        - Limpar a tela
+HELP       - Mostrar o help do comando
+             HELP MOVE
 SYSTEMINFO - Retorna informações do sistema 
 
 -------------------------------------------------------------------
 
 ATTRIB - Exibe ou altera atributos de um arquivo
-COMP - Compara o conteúdo de dois arquivos ou grupos de arquivos
 SORT - Classifica a entrada
-TYPE - Exibe o conteúdo de um arquivo de texto
 
 Comandos para trabalhar com pastas:
 
-.. - Retornar para a pasta anterior
 RD - Remover pasta
 XCOPY - Copia diretórios com seus subdiretórios
 
@@ -55,7 +50,7 @@ Comandos para gerenciar o sistema:
 SHUTDOWN - Desligar ou reiniciar o computador
 TASKLIST - Mostrar a lista de processo em execução
 TASKKILL - Finalizar algum dos processos em execução
-CHKDSK - Verifica um disco e retorna o status
+CHKDSK   - Verifica um disco e retorna o status
 HOSTNAME - Dá o nome do host
-START - Inicia uma janela separada do CMD para executar um Comandos
-TITLE - Define o título da janela do CMD
+START    - Inicia uma janela separada do CMD para executar um Comandos
+TITLE    - Define o título da janela do CMD
