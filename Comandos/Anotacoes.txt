@@ -1,11 +1,28 @@
-Comandos para trabalhar com arquivos:
+Comandos de diretórios:
 
-DIR - Lista arquivos e diretórios de uma pasta
-COPY - Copia arquivos
-MOVE - Mover arquivos ou renomear pastas
+DIR    - Lista arquivos e diretórios de uma pasta
+CD     - Entrar em uma pasta
+CD /   - Vai direto para o diretório raiz
+.      - Diretório atual
+..     - Diretório anterior
+..\..  - Volta dois diretórios
+tree   - Mostra a estrutura de pastas
+MD     - Criar uma nova pasta
+MKDIR  - Criar uma nova pasta
+
+-------------------------------------------------------------------
+Comandos de arquivos:
+
+TYPE   - Visualizar conteúdo do arquivo
+MORE   - Semelhante ao TYPE, porém mostra o conteúdo por páginas
+MOVE   - Mover arquivos ou renomear pastas
+            move ..\..\imagem.png .\Imagens
+COPY   - Copia arquivos
+REN    - Renomear arquivos
+RENANE - Renomear arquivos
+
 ERASE - Deletar arquivos
 DEL - Deletar arquivos
-REN - Renomear arquivos
 ATTRIB - Exibe ou altera atributos de um arquivo
 COMP - Compara o conteúdo de dois arquivos ou grupos de arquivos
 FC - Compara o conteúdo de dois arquivos ou grupos de arquivos
@@ -14,8 +31,6 @@ TYPE - Exibe o conteúdo de um arquivo de texto
 
 Comandos para trabalhar com pastas:
 
-MD - Criar uma nova pasta
-CD - Entrar em uma pasta
 .. - Retornar para a pasta anterior
 RD - Remover pasta
 XCOPY - Copia diretórios com seus subdiretórios
