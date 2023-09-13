@@ -6,8 +6,9 @@ CD /  - Vai direto para o diretório raiz
 .     - Diretório atual
 ..    - Diretório anterior
 ..\.. - Volta dois diretórios
-tree  - Mostra a estrutura de pastas
+TREE  - Mostra a estrutura de pastas
 MKDIR - Criar uma nova pasta (MD faz a mesma coisa)
+RMDIR - Remover uma pasta (DEL também pode ser usado)
 
 -------------------------------------------------------------------
 Comandos de arquivos:
@@ -21,14 +22,15 @@ REN  - Renomear arquivos (RENANE faz a memsa coisa)
 DEL  - Deletar arquivos
         DEL *.png
 FC   - Compara o conteúdo de dois arquivos ou grupos de arquivos (COMP faz a mesma coisa)
+FIND - Busca sequências de texto em arquivos
 
 -------------------------------------------------------------------
-Outros comandos:
+Comandos do terminal:
 
-CLS        - Limpar a tela
-HELP       - Mostrar o help do comando
-             HELP MOVE
-SYSTEMINFO - Retorna informações do sistema 
+CLS  - Limpar a tela
+HELP - Mostrar o help do comando
+        HELP MOVE
+EXIT - Fecha o CMD
 
 -------------------------------------------------------------------
 
@@ -45,9 +47,12 @@ Comandos para trabalhar com data/hora do sistema:
 TIME - Acertar a hora
 DATE - Acertar a data
 
+-------------------------------------------------------------------
 Comandos para gerenciar o sistema:
 
-SHUTDOWN - Desligar ou reiniciar o computador
+SHUTDOWN   - Desligar ou reiniciar o computador
+SYSTEMINFO - Retorna informações do sistema 
+DATE       - Exibe a data e permite alterar
 TASKLIST - Mostrar a lista de processo em execução
 TASKKILL - Finalizar algum dos processos em execução
 CHKDSK   - Verifica um disco e retorna o status
