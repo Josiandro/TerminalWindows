@@ -1,66 +1,53 @@
-Comandos de diretórios:
+Comandos para trabalhar com diretórios/pastas:
 
-DIR   - Lista arquivos e diretórios de uma pasta
-CD    - Entrar em uma pasta
-CD /  - Vai direto para o diretório raiz
-.     - Diretório atual
-..    - Diretório anterior
-..\.. - Volta dois diretórios
-TREE  - Mostra a estrutura de pastas
-MKDIR - Criar uma nova pasta (MD faz a mesma coisa)
-RMDIR - Remover uma pasta (DEL também pode ser usado)
+dir   - Listar arquivos e diretórios
+cd    - Acessar um diretório
+cd /  - Acessar o diretório raiz diretamente
+.     - Equivalente ao diretório atual
+..    - Voltar um nível em relação ao diretório atual
+..\.. - Voltar dois níveis em relação ao diretório atual
+tree  - Mostrar a extrutura dos diretórios
+mkdir - Criar um novo diretório/pasta (equivalente ao "md")
+rmdir - Remover um diretório/pasta (também pode ser usado o "del")
+------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
-Comandos curinga:
+Comandos considerados curingas:
 
-? - Aceita qualquer caracter no lugar do ponto de interrogação
-        dir ..\Downloads\consulta?.log
-        resultado: consulta1.log consulta2.log, consulta3.log
+? - Aceita qualquer caracter no lugar dele
+    dir ..\Downloads\consulta?.log
+    Resultado: consulta1.log consulta2.log, consulta3.log
+------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
-Comandos de arquivos:
+Comandos para trabalhar com arquivos:
 
-TYPE - Visualizar conteúdo do arquivo
-MORE - Semelhante ao TYPE, porém mostra o conteúdo por páginas
-MOVE - Mover arquivos ou renomear pastas
+type - Mostra o conteúdo do arquivo
+more - Mostra o conteúdo do arquivo, porém, dividindo em páginas
+move - Mover ou renomear diretórios
        move ..\..\imagem.png .\Imagens
-COPY - Copia arquivos
-REN  - Renomear arquivos (RENANE faz a memsa coisa)
-DEL  - Deletar arquivos
-        DEL *.png
-FC   - Compara o conteúdo de dois arquivos ou grupos de arquivos (COMP faz a mesma coisa)
-FIND - Busca sequências de texto em arquivos
+copy - Faz a cópia de arquivos
+ren  - Renomear arquivos (equivalente ao "rem")
+del  - Deletar arquivos
+       del *.png
+fc   - Compara o conteúdo de dois arquivos ou grupo de arquivos (equivalente ao "comp)
+find - Busca sequências de texto em arquivos
+------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
 Comandos do terminal:
 
-CLS  - Limpar a tela
-HELP - Mostrar o help do comando
-        HELP MOVE
-EXIT - Fecha o CMD
+cls  - Limpar a tela
+help - Mostrar o help do comando
+       help move
+exit - Fecha o terminal
+------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
 Comandos para gerenciar o sistema:
 
-SHUTDOWN   - Desligar ou reiniciar o computador
-SYSTEMINFO - Retorna informações do sistema 
-DATE       - Exibe a data e permite alterar
-TASKLIST   - Mostrar a lista de processo em execução
-TASKKILL   - Finalizar algum dos processos em execução
-CHKDSK     - Verifica um disco e retorna o status
-HOSTNAME   - Dá o nome do host
-START      - Inicia uma janela separada do CMD para executar um Comandos
-TITLE      - Define o título da janela do CMD
-
------------------------------------------------------------------------------------------------------------------
-
-ATTRIB - Exibe ou altera atributos de um arquivo
-SORT - Classifica a entrada
-
-Comandos para trabalhar com pastas:
-
-XCOPY - Copia diretórios com seus subdiretórios
-
-Comandos para trabalhar com data/hora do sistema:
-
-TIME - Acertar a hora
+shutdown   - Desligar ou reiniciar o computador
+systeminfo - Retorna informações do sistema 
+date       - Exibe a data e permite alterar
+tasklist   - Mostrar a lista de processos em execução
+taskkill   - Finalizar algum dos processos em execução
+chkdsk     - Verifica um disco e retorna o status
+hostname   - Retorna o nome do host
+start      - Inicia uma janela separada do terminal
+title      - Define o título da janela do terminal
