@@ -36,11 +36,12 @@ find - Busca sequências de texto em arquivos
 
 Comandos do terminal:
 
-cls  - Limpar a tela
-help - Mostrar o help do comando
-       help move
-exit - Fecha o terminal
-echo - Exibe uma mensagem no terminal
+cls   - Limpar a tela
+help  - Mostrar o help do comando
+        help move
+exit  - Fecha o terminal
+echo  - Exibe uma mensagem no terminal
+pause - Pausa a execução do script e solicita a interação do usuário 
 ------------------------------------------------------------------
 
 Comandos para gerenciar o sistema:
