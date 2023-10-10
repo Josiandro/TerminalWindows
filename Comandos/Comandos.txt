@@ -16,6 +16,8 @@ Comandos considerados curingas:
 ? - Aceita qualquer caracter no lugar dele
     dir ..\Downloads\consulta?.log
     Resultado: consulta1.log consulta2.log, consulta3.log
+* - Qualquer coisa (qualquer arquivo com a extensão .log, por exemplo)
+    *.log
 ------------------------------------------------------------------
 
 Comandos para trabalhar com arquivos:
