@@ -38,6 +38,7 @@ cls  - Limpar a tela
 help - Mostrar o help do comando
        help move
 exit - Fecha o terminal
+echo - Exibe uma mensagem no terminal
 ------------------------------------------------------------------
 
 Comandos para gerenciar o sistema:
