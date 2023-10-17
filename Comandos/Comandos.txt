@@ -30,6 +30,9 @@ copy - Faz a cópia de arquivos
 ren  - Renomear arquivos (equivalente ao "rem")
 del  - Deletar arquivos
        del *.png
+>    - Redirecionamento da saída
+       echo "Bem vindo" > bemvindo.txt (sobrescreve o arquivo com este conteúdo)
+>>   - Adiciona/concatena a informação em um arquivo já existente
 fc   - Compara o conteúdo de dois arquivos ou grupo de arquivos (equivalente ao "comp)
 find - Busca sequências de texto em arquivos
 tar  - Faz a compactação de arquivos
