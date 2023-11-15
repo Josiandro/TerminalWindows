@@ -27,7 +27,7 @@ more - Mostra o conteúdo do arquivo, porém, dividindo em páginas
 move - Mover ou renomear diretórios
        move ..\..\imagem.png .\Imagens
 copy - Faz a cópia de arquivos
-ren  - Renomear arquivos (equivalente ao "rem")
+ren  - Renomear arquivos (equivalente ao "rename")
 del  - Deletar arquivos
        del *.png
 >    - Redirecionamento da saída
